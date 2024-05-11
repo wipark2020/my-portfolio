@@ -1,12 +1,12 @@
 import React from 'react';
-import './Project.css'; // Importing the CSS
+import './Project.css'; 
 
 function Project2() {
     return (
         <div className='body'>
             <h1 className='title'>Biol</h1>
             <h2 className='subtitle'>Simplifying Access to Influential Biographies</h2>
-            <img src={process.env.PUBLIC_URL + "/images/biol.png"} alt="Interface design for biography favorites" className="project-image" />
+            <img src={process.env.PUBLIC_URL + "/images/biol.png"} alt="Interface design for biography favorites" className="project-image" aria-label="Interface design for biography favorites" />
 
             <h2 className='subtitle-content'>Introduction</h2>
             <p className='content'>
@@ -20,7 +20,7 @@ function Project2() {
             </p>
 
             <div className='project-content-image-2'>
-                <img src={process.env.PUBLIC_URL + "/images/biography_homepage.png"} alt="Biography homepage redesign" />
+                <img src={process.env.PUBLIC_URL + "/images/biography_homepage.png"} alt="Biography homepage redesign" aria-label="Biography homepage redesign" />
                 <div>
                     <p className='content'>In viewing this website, there is <span style={{ color: 'red' }}>no way</span> to easily access a person nor is there a way to search for someone easily. </p>
                 </div>
@@ -188,7 +188,7 @@ function Project2() {
             </p>
             
             <div className='project-content-image-2'>
-                <img src={process.env.PUBLIC_URL + "/images/mockup.png"} alt="Biography homepage redesign" />
+                <img src={process.env.PUBLIC_URL + "/images/mockup.png"} alt="Biography homepage redesign" aria-label="Biography homepage redesign" />
                 <div>
                     <p className='content'>Through this sketch, I am using an H-scroll to filter through the people faster. This is so that it is easier to identify the celebrities. I wanted to add a favoriting part which will belong to each card and dynamically be added and removed if clicked on the favoriting button. I also added a notification for accessibility. </p>
                 </div>
@@ -199,7 +199,7 @@ function Project2() {
             </p>
 
 
-            <img src={process.env.PUBLIC_URL + "/images/biol.png"} alt="Biography homepage redesign" className='project-image'/>
+            <img src={process.env.PUBLIC_URL + "/images/biol.png"} alt="Biography homepage redesign" className='project-image' aria-label="Biography homepage redesign"/>
        
 
             <p className='content'>

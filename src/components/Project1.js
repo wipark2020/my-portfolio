@@ -1,11 +1,11 @@
 import React from 'react';
-import './Project.css'; // Importing the CSS
+import './Project.css'; 
 
 function Project1() {
     return (
         <div className='body'>
-            <h1 className='title'>Partiful Redesign</h1> {/* Title in h1 for semantic importance */}
-            <h2 className='subtitle'>What do you use to invite people to parties?</h2> {/* Subtitle */}
+            <h1 className='title'>Partiful Redesign</h1>
+            <h2 className='subtitle'>What do you use to invite people to parties?</h2> 
             <img src={process.env.PUBLIC_URL + "/images/partiful.gif"} alt="Partiful homepage redesign" className="project-image" />
 
             <h2 className='subtitle-content'>Background</h2>
@@ -97,6 +97,7 @@ function Project1() {
                   style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
                   src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZ8QRNMO1ghxuZLzQT6Ah7s%2FPartiful%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D41-1374%26viewport%3D345%252C928%252C0.05%26t%3D3NB3n3E9nnTqRzCL-1%26scaling%3Dcontain%26starting-point-node-id%3D41%253A1374%26show-proto-sidebar%3D1%26mode%3Ddesign"
                   allowFullScreen
+                  aria-label="Partiful homepage redesign"
                 />
             </div>
 
@@ -125,6 +126,7 @@ function Project1() {
                   style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
                   src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZ8QRNMO1ghxuZLzQT6Ah7s%2FPartiful%3Fpage-id%3D23%253A50%26type%3Ddesign%26node-id%3D189-3966%26viewport%3D-2239%252C249%252C0.6%26t%3DHDiGS1K7rwi0hczr-1%26scaling%3Dscale-down%26starting-point-node-id%3D189%253A3966%26show-proto-sidebar%3D1%26mode%3Ddesign"
                   allowFullScreen
+                  aria-label="Partiful homepage redesign"
                 />
               </div>
 

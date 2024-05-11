@@ -5,9 +5,9 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Ensures it stays on top */
+  z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: fixed; /* Keeps it at the top */
+  position: fixed;
   text-align: right;
   align-items: center;
   justify-content: space-between;
@@ -17,22 +17,22 @@
 .nav-item {
   text-decoration: none;
   color: #333;
-  font-size: 25px; /* Increased font size */
-  cursor: pointer; /* Makes it clear the text is clickable */
+  font-size: 25px;
+  cursor: pointer;
   position: relative;
 }
 
 .nav-logo {
-  font-weight: bold; /* Emphasizes the name */
+  font-weight: bold;
   text-decoration: none;
   color: #333;
-  font-size: 30px; /* Increased font size */
-  cursor: pointer; /* Makes it clear the text is clickable */
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .nav-logo:hover,
 .nav-logo:focus {
-  text-decoration: none; /* Ensures no underline appears on hover or focus */
+  text-decoration: none;
 }
 
 .nav-item svg {

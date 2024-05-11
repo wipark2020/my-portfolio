@@ -22,28 +22,28 @@
     width: 100%;
     height: auto;
     margin-bottom: 30px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .content {
     font-size: 1.4em;
     margin-bottom: 20px;
     color: #000000;
-    text-align: left; /* Ensure text alignment is consistent if needed */
+    text-align: left;
 }
 
 .content-middle {
     font-size: 1.4em;
     margin-bottom: 20px;
     color: #000000;
-    text-align: middle; /* Ensure text alignment is consistent if needed */
+    text-align: middle;
 }
 
 .content-list {
     font-size: 1.3em;
     margin-bottom: 5px;
     color: #574949;
-    text-align: left; /* Ensure text alignment is consistent if needed */
+    text-align: left;
 }
 
 .subtitle-content {
@@ -56,13 +56,13 @@
 .problem-image {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; /* Space below the image */
+    margin-bottom: 20px;
 }
 
 .objective-list {
     text-align: left;
-    padding-left: 20px; /* Adjust padding as needed */
-    list-style: inside; /* To keep the bullets inside aligned with text */
+    padding-left: 20px;
+    list-style: inside;
     font-size: 1.4em;
     color: #a38484;
 }
@@ -75,12 +75,12 @@
 }
 
 .feedback-item {
-    background-color: #95ffb3; /* Light grey background for feedback items */
+    background-color: #95ffb3;
     padding: 10px;
-    border-radius: 8px; /* Rounded corners for feedback boxes */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
-    width: 30%; /* Each feedback item takes up 30% of the container width */
-    text-align: center; /* Center-align the text inside feedback items */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
     font-size: 1.2em;
     color: #000000;
 }
@@ -92,91 +92,88 @@
     margin-bottom: 10px;
 }
 
-/* Projects.css */
-
 .project-content-image {
     display: flex;
-    align-items: center; /* Aligns the image and text vertically */
-    justify-content: space-between; /* Distributes space between image and text */
-    margin: 20px 0; /* Adds margin for spacing around the block */
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 
 .project-content-image img {
-    width: 50%; /* Sets the width of the image to 50% of its container */
-    height: auto; /* Keeps the image aspect ratio intact */
-    margin-right: 20px; /* Adds spacing between the image and the text */
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
 }
 
 .project-content-image div {
-    width: 45%; /* Sets the width of the text block to 45% of its container */
-    text-align: left; /* Aligns the text to the left */
+    width: 45%;
+    text-align: left;
 }
 
 .project-content-image-2 {
     display: flex;
-    align-items: center; /* Aligns the image and text vertically */
-    justify-content: space-between; /* Distributes space between image and text */
-    margin: 20px 0; /* Adds margin for spacing around the block */
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 
 .project-content-image-2 img {
-    width: 80%; /* Sets the width of the image to 50% of its container */
-    height: 400px; /* Keeps the image aspect ratio intact */
-    margin-right: 20px; /* Adds spacing between the image and the text */
+    width: 80%;
+    height: 400px;
+    margin-right: 20px;
 }
 
 .project-content-image-2 div {
-    width: 45%; /* Sets the width of the text block to 45% of its container */
-    text-align: left; /* Aligns the text to the left */
+    width: 45%;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
     .project-content-image {
-        flex-direction: column; /* Stacks the image and text vertically on smaller screens */
+        flex-direction: column;
     }
 
     .project-content-image img {
-        width: 100%; /* Allows the image to take full width of the container on small screens */
-        margin-right: 0; /* Removes the margin between image and text */
+        width: 100%;
+        margin-right: 0;
     }
 
     .project-content-image div {
-        width: 100%; /* Allows the text block to take full width of the container on small screens */
+        width: 100%;
     }
 }
 
-/* Style for the table within the project */
 .table {
-    width: 100%; /* Ensures the table spans the entire width of its container */
-    border-collapse: collapse; /* Removes space between borders */
-    margin: 20px 0; /* Adds vertical spacing around the table */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
 .table th, .table td {
-    text-align: left; /* Aligns text to the left */
-    padding: 12px 15px; /* Adds padding inside table cells */
-    border-bottom: 1px solid #ddd; /* Adds a light line under each row */
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
 }
 
 .table th {
-    background-color: #f4f4f4; /* Light gray background for header cells */
-    color: #333; /* Dark text for better readability */
-    font-size: 1.2em; /* Slightly larger text for headers */
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1.2em;
 }
 
 .table tbody tr:hover {
-    background-color: #f9f9f9; /* Lighter gray background on row hover for better interaction feedback */
+    background-color: #f9f9f9;
 }
 
 .table tbody tr:nth-child(even) {
-    background-color: #fafafa; /* Zebra striping for rows */
+    background-color: #fafafa;
 }
 
 .table a {
-    color: #06c; /* Stylish color for links */
-    text-decoration: none; /* Removes underline from links */
+    color: #06c;
+    text-decoration: none;
 }
 
 .table a:hover {
-    text-decoration: underline; /* Adds underline on hover for links to indicate they are clickable */
+    text-decoration: underline;
 }

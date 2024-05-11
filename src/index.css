@@ -1,20 +1,17 @@
-/* Resetting default margins and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body with a light background and setting default text colors */
 body {
-  background-color: #ffffff; /* White background */
-  color: #333333; /* Dark grey color for text for better readability */
-  line-height: 1.6; /* Spacious line-height for readability */
-  font-weight: 400; /* Default font weight */
-  padding-top: 50px; /* Adds space at the top to prevent content from being hidden under the fixed navbar */
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+  font-weight: 400;
+  padding-top: 50px;
 }
 
-/* Utility classes for common spacing */
 .padding {
   padding: 20px;
 }
@@ -23,25 +20,25 @@ body {
   margin-bottom: 20px;
 }
 
-/* Flexbox utility for centering items */
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Full width containers */
 .container{
   width: 100%;
-  padding: 0;  /* Ensures no padding is pushing content inward */
+  padding: 0;
 }
 
-/* Ensures the footer stays at the bottom */
 html, body {
   height: 100%;
 }
 
-/* Basic animations or transitions for interactions */
 .transition {
   transition: all 0.3s ease;
+}
+
+b {
+  font-weight: 900;
 }

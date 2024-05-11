@@ -1,4 +1,3 @@
-/* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 body {
@@ -7,7 +6,7 @@ body {
   background-color: #fff;
   color: #333;
   line-height: 1.6;
-  position: relative; /* Needed to position the pseudo-element */
+  position: relative; 
 }
 
 body::before {
@@ -18,7 +17,7 @@ body::before {
   bottom: 0;
   left: 0;
   background: right bottom / 22rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-3.svg);
-  z-index: 0; /* Adjust as needed, ensure it is below content but above other backgrounds */
+  z-index: 0; 
 }
 
 .container {
@@ -38,3 +37,4 @@ header h1 {
     margin: 0;
     color: #333;
 }
+

@@ -24,6 +24,7 @@ function Projects() {
             className="project" 
             style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundRepeat:'no-repeat', backgroundPosition: 'center' }}
             onClick={scrollToTop}
+            aria-label={project.title} 
           >
             <div className="project-overlay">
                 <h3>{project.title}</h3>

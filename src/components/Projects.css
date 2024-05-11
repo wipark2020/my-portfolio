@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 20px;  /* Adjusted padding for smoother transition from the above section */
+  padding: 50px 20px;
 }
 
 .project-list {
@@ -15,7 +15,7 @@
 .project:hover .project-content {
   filter: blur(5px);
   transform: scale(1.03);
-  transition: transform 0.3s ease, filter 0.3s ease; /* Corrected the transition property */
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .project {
@@ -64,17 +64,17 @@
 }
 
 header1 {
-  font-size: 2rem;  /* Adjusted font size for better visibility */
-  margin: 20px 0;  /* Added margin for visual separation */
+  font-size: 2rem;
+  margin: 20px 0;
 }
 
 h3 {
-  font-size: 1.5rem; /* Increased font size for better legibility */
-  margin-bottom: 10px; /* Added bottom margin for spacing between title and description */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 p {
   font-size: 1rem;
-  margin: 0;  /* Removed default margins for consistent spacing */
-  line-height: 1.5;  /* Improved line height for readability */
+  margin: 0;
+  line-height: 1.5;
 }
