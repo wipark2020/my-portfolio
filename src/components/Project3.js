@@ -88,12 +88,9 @@ function Project3() {
                 The redesign led to a more intuitive and accessible interface. It answers the problems that I had originally which include: establishing a clear hierarchy where it is clear what the title is and what the subsections are.
                 It does follow a common scan pattern where it follows the F pattern. Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images.
             </p>
-            <div className='project-content-image-2'>
-                <img src={process.env.PUBLIC_URL + "/images/final_web.png"} alt="webAIM" aria-label="WebAIM" />
-                <div>
-                    <p className='content'>Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images. There are <b>no errors</b>. </p>
-                </div>
-            </div>
+
+            <p className='content'>Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images. There are <b>no errors</b>. </p>
+       
             <h2 className='subtitle-content' aria-label='Next Steps'>Next Steps</h2>
             <p className='content'>
                 This case study helped me build a foundation in learning how to improve accessibility and improve content hierarchy. I am proud of my final product and hope to use these skills I learned in future projects.
