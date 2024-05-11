@@ -89,7 +89,7 @@ function Project3() {
                 It does follow a common scan pattern where it follows the F pattern. Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images.
             </p>
             <div className='project-content-image-2'>
-                <img src={process.env.PUBLIC_URL + "/images/final_webAIM.png"} alt="webAIM" aria-label="WebAIM" />
+                <img src={process.env.PUBLIC_URL + "/images/final_web.png"} alt="webAIM" aria-label="WebAIM" />
                 <div>
                     <p className='content'>Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images. There are <b>no errors</b>. </p>
                 </div>

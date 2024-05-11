@@ -28,7 +28,7 @@ function About() {
         <div className="about-content">
           <div className="text-container">
             <h1>Hello!</h1>
-            <p1>I'm William and I'm a digital artist, captivated by building <span style={{ color: 'blue' }}>fun</span> and <span style={{ color: 'blue' }}>amazing</span> experiences. Welcome to my space, built with heart in San Diego and Providence.</p1>
+            <p1>I'm William and I'm a digital artist, captivated by building <span style={{ color: 'blue' }}>fun</span> and <span style={{ color: 'blue' }}>amazing</span> experiences. Welcome to my space, built with <span style={{ color: 'crimson' }}>heart</span> in San Diego and Providence.</p1>
           </div>
         </div>
         <div className="scroll-indicator">
