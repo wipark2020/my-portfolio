@@ -4,38 +4,50 @@ import './Project.css'; // Importing the CSS
 function Project3() {
     return (
         <div className='body'>
-            <h1 className='title'>FIFAaddict Redesign</h1> {/* Title in h1 for semantic importance */}
-            <h2 className='subtitle'>What do you use to get information on the video game FIFA?</h2> {/* Subtitle */}
-            <img src={process.env.PUBLIC_URL + "/images/fifaaddict_redesign.jpg"} alt="FIFAaddict homepage redesign" className="project-image" />
+            <h1 className='title'>FIFAaddict Redesign</h1>
+            <h2 className='subtitle'>Discovering the Game Beyond the Game</h2>
+            <img src={process.env.PUBLIC_URL + "/images/homepage.png"} alt="FIFAaddict homepage redesign" className="project-image" />
 
-            <h2 className='subtitle-content'>Problem & Background</h2>
+            <h2 className='subtitle-content'>Introduction</h2>
             <p className='content'>
-                FIFAaddict is a popular tool among FIFA Online 4 gamers but suffered from usability and accessibility issues. The cluttered layout, poor visual hierarchy, and inadequate color contrasts hindered user experience. Motivated by personal experience and feedback from fellow players, I undertook the redesign to enhance navigation and overall functionality.
+                When first visiting FIFAaddict, a tool beloved by FIFA Online 4 enthusiasts for its comprehensive player database and statistical tools, I was struck by its potential—and its problems. The site promised functionality but delivered frustration, with a homepage mired in usability issues that obscured its capabilities.
+            </p>
+
+            <h2 className='subtitle-content'>The Challenge</h2>
+            <p className='content'>
+                Tasked with redesigning FIFAaddict, my mission was clear: transform a cluttered, unfriendly user interface into a welcoming, efficient experience that gamers could return to with pleasure—not dread.
             </p>
 
             <h2 className='subtitle-content'>User Research</h2>
             <p className='content'>
-                User research involved analyzing competitor sites, collecting feedback from current users, and understanding the core functionalities that users valued most. This helped identify the essential features needed on the homepage and guided the redesign of user interactions.
+                I embarked on a journey starting with user research, reaching out to fellow gamers to gather insights. Their feedback was invaluable, highlighting a universal desire for a cleaner layout and quicker access to essential features.
             </p>
 
-            <h2 className='subtitle-content'>Objective</h2>
+            <h2 className='subtitle-content'>Design Insights and Iterations</h2>
             <p className='content'>
-                The main goal was to simplify the homepage to focus on the search functionality, improve accessibility standards, and ensure a clear visual hierarchy that enhances user flow and engagement.
+                Drawing on competitive analysis and direct user feedback, I began sketching out concepts. Each iteration brought clarity and purpose, focusing on streamlining the user journey from login to game analysis.
+            </p>
+            <img src={process.env.PUBLIC_URL + "/images/sketches.png"} alt="Design sketches for FIFAaddict" className="project-image" />
+
+            <h2 className='subtitle-content'>Revamping the Interface</h2>
+            <p className='content'>
+                With each prototype, from low-fidelity to high-fidelity, the interface evolved. The redesign centered around a simplified navigation system, enhanced search functionality, and improved visual hierarchy that guides the user's eye naturally through the site.
+            </p>
+            <iframe style={{width: '100%', height: '450px', border: '1px solid rgba(0, 0, 0, 0.1)'}} src="https://www.figma.com/embed?embed_host=share&url=FIGMA_FILE_LINK" allowFullScreen></iframe>
+
+            <h2 className='subtitle-content'>Solution and Impact</h2>
+            <p className='content'>
+                The final design was a harmonious blend of functionality and aesthetics. It was not just a redesign; it was a rethinking of how FIFAaddict could serve its community better. Post-launch feedback was overwhelmingly positive, with users celebrating the ease of navigation and the appealing new layout.
             </p>
 
-            <h2 className='subtitle-content'>Process</h2>
+            <h2 className='subtitle-content'>Reflections and Next Steps</h2>
             <p className='content'>
-                Starting with quick sketches, I moved to creating lo-fi wireframes that reorganized the layout to emphasize the search bar and de-clutter the interface. After iterative feedback, hi-fi prototypes were developed to refine visual elements and interactivity.
+                This project was more than a design overhaul; it was a lesson in empathy, collaboration, and agile responses to user needs. Looking ahead, the plan is to continually refine the features based on ongoing user feedback, ensuring FIFAaddict remains at the forefront of gaming tools.
             </p>
 
-            <h2 className='subtitle-content'>Impact</h2>
+            <h2 className='subtitle-content'>Concluding Thoughts</h2>
             <p className='content'>
-                The redesign led to a more intuitive and accessible interface, demonstrated by positive user feedback and improved engagement metrics. The clearer layout and enhanced navigation facilitated quicker and more efficient user interactions.
-            </p>
-
-            <h2 className='subtitle-content'>Next Steps</h2>
-            <p className='content'>
-                Future updates will focus on enhancing mobile responsiveness and adding more personalized features based on user data and trends. Continuous testing and feedback will guide further improvements to ensure the platform meets evolving user needs.
+                Through this redesign, I've learned the importance of aligning technical capabilities with user expectations, creating a bridge between what is possible and what is needed. As we move forward, our focus will stay fixed on empowering users, ensuring their journey through FIFA Online 4 is as thrilling as the game itself.
             </p>
         </div>
     );
