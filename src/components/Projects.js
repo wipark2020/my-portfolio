@@ -9,12 +9,22 @@ function Projects() {
     { id: 3, title: "FIFAaddict", path: "/project3", description: "Redesigned a soccer video game website used for player statistics", image: process.env.PUBLIC_URL + "/images/soccer.webp" }
   ];
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <section id="projects" className="projects">
       <header1>Selected Works</header1>
       <div className="project-list">
         {projects.map(project => (
-          <Link to={project.path} key={project.id} className="project" style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundRepeat:'no-repeat', backgroundPosition: 'center' }}>
+          <Link 
+            to={project.path} 
+            key={project.id} 
+            className="project" 
+            style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundRepeat:'no-repeat', backgroundPosition: 'center' }}
+            onClick={scrollToTop}
+          >
             <div className="project-overlay">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>

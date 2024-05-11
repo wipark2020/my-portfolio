@@ -91,3 +91,38 @@
     text-align: left;
     margin-bottom: 10px;
 }
+
+/* Projects.css */
+
+.project-content-image {
+    display: flex;
+    align-items: center; /* Aligns the image and text vertically */
+    justify-content: space-between; /* Distributes space between image and text */
+    margin: 20px 0; /* Adds margin for spacing around the block */
+}
+
+.project-content-image img {
+    width: 50%; /* Sets the width of the image to 50% of its container */
+    height: auto; /* Keeps the image aspect ratio intact */
+    margin-right: 20px; /* Adds spacing between the image and the text */
+}
+
+.project-content-image div {
+    width: 45%; /* Sets the width of the text block to 45% of its container */
+    text-align: left; /* Aligns the text to the left */
+}
+
+@media (max-width: 768px) {
+    .project-content-image {
+        flex-direction: column; /* Stacks the image and text vertically on smaller screens */
+    }
+
+    .project-content-image img {
+        width: 100%; /* Allows the image to take full width of the container on small screens */
+        margin-right: 0; /* Removes the margin between image and text */
+    }
+
+    .project-content-image div {
+        width: 100%; /* Allows the text block to take full width of the container on small screens */
+    }
+}

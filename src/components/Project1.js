@@ -23,6 +23,12 @@ function Project1() {
             <p className='content'>
                 Unfortunately, many of Partiful's users faced usability challenges with its homepage, limiting user engagement. The original design made it difficult for users to view multiple events and lacked features to engage users without upcoming events. 
             </p>
+            <div className='project-content-image'>
+                <img src={process.env.PUBLIC_URL + "/images/partiful_homepage.jpeg"} alt="Partiful homepage redesign" />
+                <div>
+                    <p className='content'>In viewing the home screen, the events tab is h-scroll where you can see at most 1 and a half events. There is also nothing else in the homepage. </p>
+                </div>
+            </div>
 
             <h2 className='subtitle-content'>Objective</h2>
             <p className='content'>
@@ -42,6 +48,7 @@ function Project1() {
             <ul className='objective-list'>
                 <li>Partifulness: make it FUN</li>
                 <li>No restrictions in what you can do</li>
+                <li>Add more content to engage the user</li>
             </ul>
 
             <h2 className='subtitle-content'>User Research</h2>
@@ -100,11 +107,15 @@ function Project1() {
                 <li>Carosel feature in the homescreen was just another version of an h-scrolling feature</li>
                 <li>They challenged us to think more outside the box in displaying events and what content to display in the Trends and Friends tabs</li>
             </ul>
-
-            <p className='content'>
-            Thus, in investigating the problem, we decided to go with a different design that would meet the client's needs, which was <span style={{ color: 'blue' }}>through the "Apple Wallet" style</span> of viewing the credit cards.
-            </p>
-            {/* image of apple wallet and description of why it is good on the side of it  */}
+            <div className='project-content-image'>
+                <img src={process.env.PUBLIC_URL + "/images/apple.jpeg"} alt="Partiful homepage redesign" />
+                <div>
+                <p className='content'>
+                    Thus, in investigating the problem, we decided to go with a different design that would meet the client's needs, which was <span style={{ color: 'blue' }}>through the "Apple Wallet" style</span> of viewing the credit cards. The reasoning behind this is because I thought that events are like tickets where there will be eventually a way to scan yourself into an event through one of these event cards. So an easier way to navigate that is through something we use daily, which is apple wallet.
+                </p>
+                </div>
+            </div>
+    
             <p className='content'>
             The final design adopted an "Apple Wallet" style for event cards, providing a clean, easily navigable interface. To keep the app different in interactions, we kept the Netflix style of scrolling on both the "Trends" and "Friends" pages.
             <span style={{ color: 'blue' }}>The "Events" tab also included other features such as a "Create Event" button and easier ways to observe Past events as well. There are also different homepages to consider the different scenarios of a person having an event, no event, or having an invite.</span>
