@@ -25,7 +25,7 @@ body::before {
     width: 80%;
     margin: auto;
     padding-top: 20px;
-    background: left top / 25rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-1.svg), right bottom / 40rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-2.svg);
+    background: left top / 25rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-1.svg), right bottom / 30rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-2.svg);
 }
 
 header {
