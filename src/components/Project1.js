@@ -26,7 +26,7 @@ function Project1() {
             <div className='project-content-image'>
                 <img src={process.env.PUBLIC_URL + "/images/partiful_homepage.jpeg"} alt="Partiful homepage redesign" />
                 <div>
-                    <p className='content'>In viewing the home screen, the events tab is h-scroll where you can see at most 1 and a half events. There is also nothing else in the homepage. </p>
+                    <p className='content-2'>In viewing the home screen, the events tab is h-scroll where you can see at most 1 and a half events. There is also nothing else in the homepage. </p>
                 </div>
             </div>
 
@@ -111,7 +111,7 @@ function Project1() {
             <div className='project-content-image'>
                 <img src={process.env.PUBLIC_URL + "/images/apple.jpeg"} alt="Partiful homepage redesign" />
                 <div>
-                <p className='content'>
+                <p className='content-2'>
                     Thus, in investigating the problem, we decided to go with a different design that would meet the client's needs, which was <span style={{ color: 'blue' }}>through the "Apple Wallet" style</span> of viewing the credit cards. The reasoning behind this is because I thought that events are like tickets where there will be eventually a way to scan yourself into an event through one of these event cards. So an easier way to navigate that is through something we use daily, which is apple wallet.
                 </p>
                 </div>

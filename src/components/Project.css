@@ -36,6 +36,15 @@
     text-align: left;
 }
 
+.content-2 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: left;
+    background-color: rgb(255, 196, 196);
+    padding: 10px;
+}
+
 .content-middle {
     font-size: 1.4em;
     margin-bottom: 20px;
@@ -46,7 +55,7 @@
 .content-list {
     font-size: 1.3em;
     margin-bottom: 5px;
-    color: #574949;
+    color: #a38484;
     text-align: left;
 }
 

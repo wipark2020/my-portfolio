@@ -22,7 +22,7 @@ function Project2() {
             <div className='project-content-image-2'>
                 <img src={process.env.PUBLIC_URL + "/images/biography_homepage.png"} alt="Biography homepage redesign" aria-label="Biography homepage redesign" />
                 <div>
-                    <p className='content'>In viewing this website, there is <strong><em>no way</em></strong> to easily access a person nor is there a way to search for someone easily. </p>
+                    <p className='content-2'>In viewing this website, there is <strong><em>no way</em></strong> to easily access a person nor is there a way to search for someone easily. </p>
                 </div>
             </div>
 
@@ -190,7 +190,7 @@ function Project2() {
             <div className='project-content-image-2'>
                 <img src={process.env.PUBLIC_URL + "/images/mockup.png"} alt="Biography homepage redesign" aria-label="Biography homepage redesign" />
                 <div>
-                    <p className='content'>Through this sketch, I am using an H-scroll to filter through the people faster. This is so that it is easier to identify the celebrities. I wanted to add a favoriting part which will belong to each card and dynamically be added and removed if clicked on the favoriting button. I also added a notification for accessibility. </p>
+                    <p className='content-2'>Through this sketch, I am using an H-scroll to filter through the people faster. This is so that it is easier to identify the celebrities. I wanted to add a favoriting part which will belong to each card and dynamically be added and removed if clicked on the favoriting button. I also added a notification for accessibility. </p>
                 </div>
             </div>
 
