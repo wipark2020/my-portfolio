@@ -1,0 +1,26 @@
+.body {
+    text-align: center; /* Centers all content within the div */
+}
+
+.title {
+    font-size: 7em; /* Larger text for the title */
+    color: #000000; /* Dark gray color for better readability */
+    margin-top: 20px; /* Space above the title */
+}
+
+.subtitle {
+    font-size: 1.9em; /* Slightly smaller text for the subtitle */
+    color: #000000; /* Lighter gray to differentiate from the title */
+    margin-bottom: 20px; /* Space below the subtitle */
+}
+
+.project-image {
+    width: 100%; /* Responsive width, adjust as necessary */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 30px; /* Space below the image */
+}
+
+p{
+    font-size: 1.4em; /* Larger text for better readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}

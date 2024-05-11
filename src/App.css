@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Pangolin', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  position: relative; /* Needed to position the pseudo-element */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: right bottom / 22rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-3.svg);
+  z-index: 0; /* Adjust as needed, ensure it is below content but above other backgrounds */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    background: left top / 25rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-1.svg), right bottom / 40rem no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/paint-splatter-2.svg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header h1 {
+    margin: 0;
+    color: #333;
 }

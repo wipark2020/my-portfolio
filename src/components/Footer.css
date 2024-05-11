@@ -1,0 +1,27 @@
+.footer {
+  color: rgb(0, 0, 0);
+  padding: 20px 50px; /* Adjust padding for your layout */
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content h2 {
+  margin: 10px 0; /* Space between the elements */
+  font-size: 24px; /* Large text for the heading */
+}
+
+.footer-content .social-links {
+  margin: 20px 0;
+}
+
+.footer-content .social-links a {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin: 0 10px; /* Space between links */
+  font-size: 18px; /* Slightly smaller text for links */
+}
+
+.footer-content p {
+  margin-top: 10px; /* Additional spacing from the last element */
+  font-size: 14px;
+}

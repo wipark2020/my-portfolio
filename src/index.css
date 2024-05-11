@@ -1,13 +1,47 @@
-body {
+/* Resetting default margins and padding */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Body with a light background and setting default text colors */
+body {
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark grey color for text for better readability */
+  line-height: 1.6; /* Spacious line-height for readability */
+  font-weight: 400; /* Default font weight */
+  padding-top: 50px; /* Adds space at the top to prevent content from being hidden under the fixed navbar */
+}
+
+/* Utility classes for common spacing */
+.padding {
+  padding: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+/* Flexbox utility for centering items */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Full width containers */
+.container{
+  width: 100%;
+  padding: 0;  /* Ensures no padding is pushing content inward */
+}
+
+/* Ensures the footer stays at the bottom */
+html, body {
+  height: 100%;
+}
+
+/* Basic animations or transitions for interactions */
+.transition {
+  transition: all 0.3s ease;
 }
