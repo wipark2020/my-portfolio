@@ -1,57 +1,44 @@
-import { useState } from 'react';
-import './Body.css';
-import IconButton from '@mui/material/IconButton';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import React from 'react';
+import './Project.css'; // Importing the CSS
 
-function FifaAddictRedesign() {
-    const [currentImage, setCurrentImage] = useState(process.env.PUBLIC_URL + "/images/homepage.png");
-    const toggleImage = () => {
-        setCurrentImage(currentImage === process.env.PUBLIC_URL + "/images/homepage.png" ? process.env.PUBLIC_URL + "/images/final_WebAIM.png" : process.env.PUBLIC_URL + "/images/homepage.png");
-    };
-
+function Project3() {
     return (
-        <div className='body-container'>
-            <h1 className='title'>Redesigning FIFAaddict: Enhancing User Experience for Gamers</h1>
-            <h2 className='subtitle'>Improving Navigation and Accessibility</h2>
-            <img src={currentImage} alt="FIFAaddict interface" className="project-image" />
+        <div className='body'>
+            <h1 className='title'>FIFAaddict Redesign</h1> {/* Title in h1 for semantic importance */}
+            <h2 className='subtitle'>What do you use to get information on the video game FIFA?</h2> {/* Subtitle */}
+            <img src={process.env.PUBLIC_URL + "/images/homepage.png"} alt="FIFAaddict homepage redesign" className="project-image" />
 
-            <h2 className='subtitle-content'>Introduction</h2>
+            <h2 className='subtitle-content'>Problem & Background</h2>
             <p className='content'>
-                FIFAaddict serves as a crucial resource for the FIFA Online 4 community, providing tools and databases essential for gameplay enhancement. Despite its utility, initial usability and accessibility challenges hindered user experience, prompting a comprehensive redesign.
+                FIFAaddict is a popular tool among FIFA Online 4 gamers but suffered from usability and accessibility issues. The cluttered layout, poor visual hierarchy, and inadequate color contrasts hindered user experience. Motivated by personal experience and feedback from fellow players, I undertook the redesign to enhance navigation and overall functionality.
             </p>
 
-            <h2 className='subtitle-content'>User Research and Competitive Analysis</h2>
+            <h2 className='subtitle-content'>User Research</h2>
             <p className='content'>
-                Initial steps included gathering user feedback and conducting a competitive analysis. These efforts highlighted several areas for improvement, such as the site's visual hierarchy and navigational structure, which were confusing and inefficient.
+                User research involved analyzing competitor sites, collecting feedback from current users, and understanding the core functionalities that users valued most. This helped identify the essential features needed on the homepage and guided the redesign of user interactions.
             </p>
 
-            <h2 className='subtitle-content'>Design Process and Iterations</h2>
+            <h2 className='subtitle-content'>Objective</h2>
             <p className='content'>
-                Design iterations focused on simplifying the user interface and improving accessibility. Early sketches transitioned into more refined wireframes as the design evolved, with continuous user feedback shaping each stage.
-            </p>
-            <img src={process.env.PUBLIC_URL + "/images/sketches.png"} alt="Design sketches" className="project-image" />
-
-            <h2 className='subtitle-content'>Technical Implementation</h2>
-            <p className='content'>
-                The technical implementation involved React for building a dynamic and responsive interface. Significant features included a streamlined navigation bar, enhanced search functionality, and better content organization using Material UI components.
+                The main goal was to simplify the homepage to focus on the search functionality, improve accessibility standards, and ensure a clear visual hierarchy that enhances user flow and engagement.
             </p>
 
-            <h2 className='subtitle-content'>Final Design and User Feedback</h2>
+            <h2 className='subtitle-content'>Process</h2>
             <p className='content'>
-                The redesigned interface was well-received, characterized by its user-friendly layout and improved accessibility. Users particularly appreciated the clear visual distinctions between different sections and the responsive design elements.
+                Starting with quick sketches, I moved to creating lo-fi wireframes that reorganized the layout to emphasize the search bar and de-clutter the interface. After iterative feedback, hi-fi prototypes were developed to refine visual elements and interactivity.
             </p>
-            <div className="image-container">
-                <IconButton onClick={toggleImage} aria-label="Toggle image">
-                    <ArrowForwardIosIcon />
-                </IconButton>
-            </div>
 
-            <h2 className='subtitle-content'>Conclusion and Future Directions</h2>
+            <h2 className='subtitle-content'>Impact</h2>
             <p className='content'>
-                Reflecting on the redesign process, the integration of user feedback was instrumental in achieving a design that not only met but exceeded user expectations. Future updates will focus on expanding features based on new user insights and technological advancements.
+                The redesign led to a more intuitive and accessible interface, demonstrated by positive user feedback and improved engagement metrics. The clearer layout and enhanced navigation facilitated quicker and more efficient user interactions.
+            </p>
+
+            <h2 className='subtitle-content'>Next Steps</h2>
+            <p className='content'>
+                Future updates will focus on enhancing mobile responsiveness and adding more personalized features based on user data and trends. Continuous testing and feedback will guide further improvements to ensure the platform meets evolving user needs.
             </p>
         </div>
     );
 }
 
-export default FifaAddictRedesign;
+export default Project3;

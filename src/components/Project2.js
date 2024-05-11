@@ -1,65 +1,65 @@
 import React from 'react';
 import './Project.css'; // Importing the CSS
 
-function FifaAddictRedesign() {
+function Project2() {
     return (
         <div className='body'>
-            <h1 className='title'>FifaAddict</h1>
-            <h2 className='subtitle'>Revamping the FIFA Online 4 Player Database</h2>
-            <img src={process.env.PUBLIC_URL + "/images/homepage.png"} alt="Original FifaAddict Homepage" className="project-image" />
+            <h1 className='title'>Biol</h1>
+            <h2 className='subtitle'>Simplifying Access to Influential Biographies</h2>
+            <img src={process.env.PUBLIC_URL + "/images/biol.png"} alt="Interface design for biography favorites" className="project-image" />
 
-            <h2 className='subtitle-content'>Context and Challenge</h2>
+            <h2 className='subtitle-content'>Introduction</h2>
             <p className='content'>
-                FifaAddict, a key tool for the gaming community of FIFA Online 4, required a major redesign to enhance user experience and accessibility. Initially overwhelmed by its cluttered design and poor navigational structure, I saw an opportunity to streamline its functionality and aesthetic to better serve its users.
+                In the digital age, access to information is key, yet the ability to organize and retrieve data efficiently is often overlooked. This project was initiated to address the challenge of managing biographical information effectively, utilizing React to build an interface that not only simplifies interaction but also enhances user engagement.
             </p>
 
-            <h2 className='subtitle-content'>Initial Research and User Feedback</h2>
+            <h2 className='subtitle-content'>Challenge and Context</h2>
             <p className='content'>
-                My approach began with user feedback and an analysis using tools like WebAIM to identify critical usability and accessibility issues. Common feedback highlighted the overwhelming nature of the homepage and the difficulty in navigating through dense, poorly contrasted text.
+                The primary challenge was the lack of an intuitive system for users to explore and favorite biographies of notable figures. Existing platforms were either too cumbersome or not sufficiently flexible, leading to a fragmented user experience.
             </p>
 
-            <h2 className='subtitle-content'>Design Iterations and Decisions</h2>
+            <h2 className='subtitle-content'>Competitive Analysis</h2>
             <p className='content'>
-                The redesign process involved multiple sketches and wireframes, focusing on simplifying the interface and prioritizing the search functionality, essential for player database navigation. Each iteration aimed to declutter the interface, improve text readability, and enhance overall navigational flow.
+                To ground our design in solid user experience principles, we conducted a competitive analysis of platforms like realtor.com, allrecipes.com, and bigfuture.collegeboard.org. This analysis highlighted several usability and accessibility gaps, particularly around favoriting functionalities, which our project aimed to fill.
             </p>
 
-            <img src={process.env.PUBLIC_URL + "/images/final_sketch.jpg"} alt="Final sketch of redesign" className="project-image" />
-
-            <h2 className='subtitle-content'>Developing the Solution</h2>
+            <h2 className='subtitle-content'>Objective</h2>
             <p className='content'>
-                Utilizing React, I transformed these designs into a dynamic and responsive web interface. The new layout was structured around a clear visual hierarchy, employing a Z-pattern design to guide the user’s eye through the most important elements seamlessly.
+                The goal was to develop a clear and engaging interface that allows users to filter, sort, and save biographical data with ease. We aimed to create a solution that encourages exploration while also providing the functionality to manage favorites efficiently.
             </p>
 
-            <h2 className='subtitle-content'>Key Features and Implementations</h2>
+            <h2 className='subtitle-content'>Design and Development Process</h2>
             <p className='content'>
-                Highlights of the redesign include:
+                Our approach combined agile development methodologies with continuous user feedback. Starting with sketches and moving through to high-fidelity prototypes, we focused on creating a seamless user experience that leverages React's capabilities for dynamic updates and state management.
+            </p>
+
+            <h2 className='subtitle-content'>Key Features Implemented</h2>
+            <p className='content'>
+                The interface includes:
                 <ul>
-                    <li>A focused search bar prominently placed for ease of use.</li>
-                    <li>High-contrast color scheme and larger text for better readability and accessibility.</li>
-                    <li>Reorganized navigation with intuitive links and a simplified menu to enhance user flow.</li>
+                    <li>Dynamic filtering by Gender and Occupation.</li>
+                    <li>Sorting mechanisms for Name and Age.</li>
+                    <li>An aggregation section labeled "Favorite Biographies" that updates in real-time.</li>
                 </ul>
+                These features were designed to cater to the specific needs of users looking to navigate large sets of biographical information effectively.
             </p>
 
-            <img src={process.env.PUBLIC_URL + "/images/annotations.jpeg"} alt="Annotations on the wireframe" className="project-image" />
-
-            <h2 className='subtitle-content'>Responsive Redesign Outcomes</h2>
+            <h2 className='subtitle-content'>Deployment and Feedback</h2>
             <p className='content'>
-                Post-launch analytics indicated a significant improvement in user engagement and satisfaction. The cleaner, more organized layout led to a decreased bounce rate and higher interaction rates with the database's features.
+                Deployed via Vercel, the application has been well-received, with particular praise for its responsiveness and ease of use. The deployment can be accessed <a href="https://biography-app.vercel.app/" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
 
-            <img src={process.env.PUBLIC_URL + "/images/final_WebAIM.png"} alt="Final WebAIM analysis" className="project-image" />
-
-            <h2 className='subtitle-content'>Lessons Learned and Next Steps</h2>
+            <h2 className='subtitle-content'>Impact and Future Directions</h2>
             <p className='content'>
-                The project underscored the importance of understanding user needs and the impact of visual and navigational design on user experience. Future updates will focus on further enhancing mobile responsiveness and integrating more personalized user features.
+                Since launch, the application has demonstrated significant improvements in user interaction metrics and satisfaction. Future updates will focus on expanding filtering options, integrating predictive analytics to suggest biographies based on user preferences, and enhancing mobile responsiveness.
             </p>
 
             <h2 className='subtitle-content'>Conclusion</h2>
             <p className='content'>
-                This case study illustrates the transformative power of user-centered design and its impact on enhancing functionality in web applications. The FifaAddict redesign not only improved usability but also deepened user engagement, showcasing the effectiveness of thoughtful, iterative design in solving real-world problems.
+                This case study showcases the power of React in developing dynamic web applications and emphasizes the importance of user-centered design. Through iterative development and responsive design, we have created a platform that not only meets but exceeds user expectations for managing biographical information.
             </p>
         </div>
     );
 }
 
-export default FifaAddictRedesign;
+export default Project2;
