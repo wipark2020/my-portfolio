@@ -15,27 +15,27 @@ function Project2() {
 
             <h2 className='subtitle-content'>Challenge and Context</h2>
             <p className='content'>
-                The primary challenge was the lack of an intuitive system for users to explore and favorite biographies of notable figures. Existing platforms were either too cumbersome or not sufficiently flexible, leading to a fragmented user experience. 
+                The primary challenge was the <strong><em>lack of an intuitive system</em></strong> for users to explore and favorite biographies of notable figures. Existing platforms were either too cumbersome or not sufficiently flexible, leading to a fragmented user experience. 
                 The most notable is <a href="https://www.biography.com/" target="_blank" rel="noopener noreferrer"> biography.com</a>
             </p>
 
             <div className='project-content-image-2'>
                 <img src={process.env.PUBLIC_URL + "/images/biography_homepage.png"} alt="Biography homepage redesign" aria-label="Biography homepage redesign" />
                 <div>
-                    <p className='content'>In viewing this website, there is <span style={{ color: 'red' }}>no way</span> to easily access a person nor is there a way to search for someone easily. </p>
+                    <p className='content'>In viewing this website, there is <strong><em>no way</em></strong> to easily access a person nor is there a way to search for someone easily. </p>
                 </div>
             </div>
 
             <h2 className='subtitle-content'>Objective</h2>
             <p className='content'>
-                Thus, my goal was to develop a clear and engaging interface that allows users to filter, sort, and save biographical data with ease. I aimed to create a solution that encourages exploration while also providing the functionality to manage favorites efficiently.
+                Thus, my goal was to develop a clear and engaging interface that allows users to filter, sort, and save biographical data <strong><em>with ease</em></strong>. I aimed to create a solution that encourages exploration while also providing the functionality to manage favorites efficiently.
             </p>
 
             <h2 className='subtitle-content'>Research</h2>
             <p className='content'>
                 To get a better understanding of how other organizations design their products, I observed strengths and weaknesses, market gaps and opportunities, and any threat of the competitors in the market.
             </p>
-            <p className='content'>To do this, I identifed <b>three different competitor’s websites</b> with a favoriting function, particularly how they organize information that is pertinent to the user and how they utilize aggregators where an aggregator is a list that keeps track of items. An example of this can be shopping carts or favorites lists. </p>
+            <p className='content'>To do this, I identifed <strong><em>three different competitor’s websites</em></strong> with a favoriting function, particularly how they organize information that is pertinent to the user and how they utilize aggregators where an aggregator is a list that keeps track of items. An example of this can be shopping carts or favorites lists. </p>
             <p className='content'>I have selected the websites:  
                 <a href="https://www.realtor.com/realestateandhomes-search/Providence_RI" target="_blank" rel="noopener noreferrer"> realtor.com</a>, 
                 <a href="https://www.allrecipes.com/search?q=smoothies" target="_blank" rel="noopener noreferrer"> allrecipes.com</a>, and 
@@ -96,8 +96,8 @@ function Project2() {
                 </tr>
             </tbody>
             </table>
-            <p className='content'>All of these websites have a favoriting function. All the websites require a Login, so I have included images and highlights of the factors that I am talking about. </p>
-            <p><b>Note: </b>Next to each factor discussed is a number which corresponds to the one on the image.</p>
+
+            <p className='content'><b><em>Note: </em></b>Next to each factor discussed is a number which corresponds to the one on the image.</p>
             <img src="./images/realtor.jpg" alt="Realtor Website" aria-label='Realtor Website' className="project-image"/>
             <p className='content'>The website 
                 <a href="https://www.realtor.com/realestateandhomes-search/Providence_RI" target="_blank" rel="noopener noreferrer" > <b>realtor.com </b></a>

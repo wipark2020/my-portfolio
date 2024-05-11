@@ -76,7 +76,7 @@ function Project1() {
                 <b>Note:</b> To start, we were given the ability to meet with the clients once a week to get feedback on the project to lead us in the right direction. 
             </p>
             <p className= 'disclaimer'>
-                <b>Note:</b> Since I was working with a team, the work I did is colored in <span style={{ color: 'blue' }}>blue</span>.
+                <b>Note:</b> Since I was working with a team, the work I significantly contributed towards was in <span style={{ color: 'blue' }}>blue</span>. All the work was done collaboratively.
             </p>
             <p className='content'>
                 Once we established the main painpoints of Partiful's homepage, we decided to get inspiration at other apps that were social and one-dimensional where one-dimensional means that the app is targeting a specific niche like restaurants or running which is similar to events. 
@@ -134,7 +134,7 @@ function Project1() {
             <p className='content'>
                 Meeting with the team at Partiful, there was success in the final design that we made. 
                 There are no metrics to show an increase in user engagement, with more RSVPs and social interactions. 
-                But, from the Partiful team's point of view, the redesigned homepage <b>significantly improved</b> the user experience, making it easier for users to navigate and interact with the platform's features.
+                But, from the Partiful team's point of view, the redesigned homepage <b><em>significantly improved</em></b> the user experience, making it easier for users to navigate and interact with the platform's features.
                 This includes the "Apple Wallet" style of viewing the events which enables the user to see all the events at once and meeting all the objectives that Partiful wanted us to meet.
                 In particular, Partifulness.
             </p>
@@ -144,11 +144,11 @@ function Project1() {
                 Continuous user feedback will guide these improvements to ensure the platform remains user-centric and competitive in the event planning market.
             </p>
             <p className='content'>
-                Redesigning the Partiful homepage was a <b>challenging yet rewarding experience</b> that took the course of a month. 
+                Redesigning the Partiful homepage was a <b><em>challenging yet rewarding experience</em></b> that took the course of a month. 
                 This was the first time in my experience working with a client to redesign a product.
                 I learned the importance of taking in feedback from the clients and users to create a product that meets their needs.
                 I also learned to work with a team collaboratively and taking in each other suggestions to create a final product. 
-                Overall, my team and I are <b>proud</b> of the final design we created and hope that it will help Partiful attract more users and improve their platform.
+                Overall, my team and I are <b><em>proud</em></b> of the final design we created and hope that it will help Partiful attract more users and improve their platform.
             </p>
         </div>
     );

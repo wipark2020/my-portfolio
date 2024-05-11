@@ -10,12 +10,16 @@
     font-size: 7em;
     color: #000000;
     margin-top: 20px;
+    background-color: rgb(245, 255, 168);
+    box-shadow: -0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
 .subtitle {
     font-size: 1.5em;
     color: #000000;
     margin-bottom: 20px;
+    background-color: rgb(245, 255, 168);
+    box-shadow: -0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
 .project-image {
@@ -51,6 +55,8 @@
     color: #000000;
     margin-bottom: 20px;
     text-align: left;
+    background-color: rgb(245, 255, 168);
+    box-shadow: -0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
 .problem-image {

@@ -17,7 +17,7 @@ function Project3() {
 
             <h2 className='subtitle-content' aria-label='User Research'>User Research</h2>
             <p className='content'>
-                I conducted personal research on the website and gathered online feedback from fellow FIFA Online 4 players. The main <b>usability</b> issues identified were:
+                I conducted personal research on the website and gathered online feedback from fellow FIFA Online 4 players. The main <b><em>usability</em></b> issues identified were:
             </p>
             <ol className='content-list'>
                 <li>The website does not have a clear visual hierarchy as the site has a lot going on visually where it could benefit from emphasizing information, not allowing the user to strategically guide the user's attention.</li>
@@ -29,7 +29,7 @@ function Project3() {
             </ol>
             <img src={process.env.PUBLIC_URL + "/images/WebAIM.png"} alt="WebAIM" className="project-image" aria-label="WebAIM" />
             <p className='content'>
-                I was able to test accessibility using WebAIM analysis. The main <b>accessibility</b> issues identified were:
+                I was able to test accessibility using WebAIM analysis. The main <b><em>accessibility</em></b> issues identified were:
             </p>
             <ol className='content-list'>
                 <li>Color contrast is a big problem where the problem is “very low contrast” which makes it hard to see the features</li>
@@ -38,7 +38,7 @@ function Project3() {
             </ol>
             <h2 className='subtitle-content' aria-label='Objective'>Objective</h2>
             <p className='content'>
-                The main goal was to simplify the homepage to focus on the search functionality, improve accessibility standards, and ensure a clear visual hierarchy that enhances user flow and engagement which all come from the problems of usability and accesibility that I found.
+                The main goal was to <b><em>simplify</em></b> the homepage to focus on the search functionality, improve accessibility standards, and ensure a clear visual hierarchy that enhances user flow and engagement which all come from the problems of usability and accessibility that I found.
                 Most of the problems come from the cluttering of the homepage where there were too many features present in the home screen to notify new users where to navigate or how to easily use the website.
                 My goals:
             </p>
@@ -89,12 +89,12 @@ function Project3() {
                 It does follow a common scan pattern where it follows the F pattern. Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images.
             </p>
 
-            <p className='content'>Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images. There are <b>no errors</b>. </p>
+            <p className='content'>Along with this, doing an accessibility analysis through WebAIM, I was able to fix the color contrast and add alternative text to the images. There are <b><em>no errors</em></b>. </p>
        
             <h2 className='subtitle-content' aria-label='Next Steps'>Next Steps</h2>
             <p className='content'>
                 Doing this alone, I was able to use this case study to help me build a foundation in learning how to improve accessibility and improve content hierarchy. Being able to go through the process of prototyping to coding a final design is worthwhile.
-                I am proud of my final product and hope to use these skills I learned in future projects.
+                I am proud of my final product and <b><em>hope to use</em></b> these skills I learned in future projects.
                 In terms of what is next for this case study, future updates will focus on enhancing mobile responsiveness which is an important factor of accessibility as well as making it look more unique rather than a simple website that everyone has these days.
             </p>
         </div>
