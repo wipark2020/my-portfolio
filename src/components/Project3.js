@@ -93,7 +93,8 @@ function Project3() {
        
             <h2 className='subtitle-content' aria-label='Next Steps'>Next Steps</h2>
             <p className='content'>
-                This case study helped me build a foundation in learning how to improve accessibility and improve content hierarchy. I am proud of my final product and hope to use these skills I learned in future projects.
+                Doing this alone, I was able to use this case study to help me build a foundation in learning how to improve accessibility and improve content hierarchy. Being able to go through the process of prototyping to coding a final design is worthwhile.
+                I am proud of my final product and hope to use these skills I learned in future projects.
                 In terms of what is next for this case study, future updates will focus on enhancing mobile responsiveness which is an important factor of accessibility as well as making it look more unique rather than a simple website that everyone has these days.
             </p>
         </div>

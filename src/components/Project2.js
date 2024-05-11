@@ -223,7 +223,7 @@ function Project2() {
 
             <h2 className='subtitle-content'>What I learned</h2>
             <p className='content'>
-                This case study showed me that there is a lot of different options in terms of aggregation which makes me want to explore other functionalities in code that accomplish the same things.
+                Doing this alone, this case study showed me that there is a lot of different options in terms of aggregation which makes me want to explore other functionalities in code that accomplish the same things.
                 I have learned about disecting other work and utilizing that to the best of my ability.
                 I believe this is important because of the ever changing that is design.
                 I am proud of what I learned through this assignment and hope to utilize it in my future work. 
